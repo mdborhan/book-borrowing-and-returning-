@@ -1,0 +1,126 @@
+html{
+  height: 100%;
+}
+
+body{
+  position: relative;
+  min-height: 100%;
+}
+
+/** Navbar CSS **/
+/*.mr-auto, .mx-auto {
+    margin-top: 12px;
+    margin-bottom: -10px;
+}*/
+
+ #rcorners1{
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #222;
+    border-radius: 0 8px 0 70px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 70px;
+	
+		  }
+	
+ #rcorners1:hover{
+    color:#fff;
+    background-color: #2874a6;
+		   }
+.search-button{
+    color:#2874a6;
+    background-color:#fff;
+}
+.search-button:hover{
+    color:#fff;
+    background-color:#2874a6;
+}
+
+
+
+.dropdown:hover>.dropdown-menu{
+    display:block;
+}
+/** End Navbar CSS **/
+
+
+/** Product CSS **/
+.product-item{
+  background: #dcf4fc;
+}
+.child-rows {
+    padding-left: 20px;
+    border-left: 1px solid #dfdfdf;
+    background: #FFF;
+}
+.child-rows a.list-group-item{
+  border-left: 0px!important;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #02aadd;
+    border-color: #02aadd;
+    border-radius: 0px!important;
+}
+/** End Product CSS **/
+
+
+
+
+/**
+ * Override CSS's
+ */
+/*
+ .bg-light {
+     background-color: #02aadd!important;
+ }
+*/
+
+.margin-top-20{
+  margin-top: 20px;
+}
+.feature-img{
+  max-height: 200px
+}
+.pointer{
+  cursor: pointer;
+}
+      
+
+        /** 
+        *footer Css Start
+        */
+
+.btn-twitter{
+	background-color:#3498DB;
+	color:white;
+	border-radius:50%;
+}
+.btn-twitter:hover{
+	color:white;
+}
+.btn-youtube{
+	color:white;
+	border-radius:50%;
+	background-color:red;
+}
+.btn-youtube:hover{
+	color:white;
+	background-color:red;
+}
+.btn-facebook{
+	background-color:#0C5C92;
+	border-radius:50%;
+	color:white;
+}
+.btn-facebook:hover{
+	color:white;
+}
+
+
+        /** 
+        *footer Css Start
+        */

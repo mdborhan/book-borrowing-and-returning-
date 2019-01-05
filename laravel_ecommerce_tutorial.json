@@ -1,0 +1,99 @@
+[
+{"type":"header","version":"4.7.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"laravel_ecommerce_tutorial"},
+{"type":"table","name":"admins","database":"laravel_ecommerce_tutorial","data":
+[
+
+]
+}
+,{"type":"table","name":"brands","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"2","name":"Sony","description":null,"image":"1532150006.png","created_at":"2018-07-21 05:13:26","updated_at":"2018-07-21 05:13:26"},
+{"id":"3","name":"Samsung","description":null,"image":"1532150024.png","created_at":"2018-07-21 05:13:44","updated_at":"2018-07-21 05:13:44"},
+{"id":"4","name":"Others","description":null,"image":"1532150085.png","created_at":"2018-07-21 05:14:46","updated_at":"2018-07-21 05:14:46"}
+]
+}
+,{"type":"table","name":"carts","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"1","product_id":"3","user_id":"8","order_id":null,"ip_address":"::1","product_quantity":"7","created_at":"2018-08-28 04:12:25","updated_at":"2018-08-28 04:29:17"},
+{"id":"3","product_id":"1","user_id":"8","order_id":null,"ip_address":"::1","product_quantity":"2","created_at":"2018-08-28 04:33:27","updated_at":"2018-08-28 04:33:38"},
+{"id":"4","product_id":"2","user_id":"8","order_id":null,"ip_address":"::1","product_quantity":"1","created_at":"2018-08-28 04:33:46","updated_at":"2018-08-28 04:33:46"}
+]
+}
+,{"type":"table","name":"categories","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"1","name":"Fashion","description":"Fashion Category","image":"1532145104.jpg","parent_id":null,"created_at":"2018-07-21 03:51:44","updated_at":"2018-07-21 03:51:44"},
+{"id":"2","name":"Sunglass","description":null,"image":"1532145185.jpg","parent_id":"1","created_at":"2018-07-21 03:53:05","updated_at":"2018-07-21 03:53:05"},
+{"id":"3","name":"Household","description":null,"image":"1532145244.jpg","parent_id":null,"created_at":"2018-07-21 03:54:04","updated_at":"2018-07-21 03:54:04"}
+]
+}
+,{"type":"table","name":"districts","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"2","name":"Mymensingh Sadar","division_id":"4","created_at":"2018-07-21 12:42:21","updated_at":"2018-07-21 12:42:33"},
+{"id":"3","name":"Khulna Sadar","division_id":"5","created_at":"2018-07-21 12:42:49","updated_at":"2018-07-21 12:42:49"},
+{"id":"5","name":"Dhaka","division_id":"2","created_at":"2018-07-21 12:43:13","updated_at":"2018-07-21 12:43:13"},
+{"id":"6","name":"Barisal Sadar","division_id":"6","created_at":"2018-07-21 12:44:42","updated_at":"2018-07-21 12:44:42"},
+{"id":"7","name":"Bagerhat","division_id":"5","created_at":"2018-07-21 12:45:37","updated_at":"2018-07-21 12:45:37"}
+]
+}
+,{"type":"table","name":"divisions","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"2","name":"Dhaka","priority":"1","created_at":"2018-07-21 12:24:27","updated_at":"2018-07-21 12:24:27"},
+{"id":"3","name":"Rajshahi","priority":"2","created_at":"2018-07-21 12:24:39","updated_at":"2018-07-21 12:24:39"},
+{"id":"4","name":"Mymensingh","priority":"8","created_at":"2018-07-21 12:24:51","updated_at":"2018-07-21 12:24:51"},
+{"id":"5","name":"Khulna","priority":"4","created_at":"2018-07-21 12:25:14","updated_at":"2018-07-21 12:25:14"},
+{"id":"6","name":"Barisal","priority":"5","created_at":"2018-07-21 12:43:36","updated_at":"2018-07-21 12:43:36"},
+{"id":"7","name":"Chittagong","priority":"3","created_at":"2018-07-21 12:43:48","updated_at":"2018-07-21 12:43:48"},
+{"id":"8","name":"Sylhet","priority":"6","created_at":"2018-07-21 12:44:02","updated_at":"2018-07-21 12:44:02"},
+{"id":"9","name":"Rangpur","priority":"7","created_at":"2018-07-21 12:44:14","updated_at":"2018-07-21 12:44:14"}
+]
+}
+,{"type":"table","name":"migrations","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"2","migration":"2014_10_12_100000_create_password_resets_table","batch":"1"},
+{"id":"4","migration":"2018_02_22_165732_create_products_table","batch":"2"},
+{"id":"5","migration":"2018_02_23_014906_create_categories_table","batch":"2"},
+{"id":"6","migration":"2018_02_23_015040_create_brands_table","batch":"2"},
+{"id":"7","migration":"2018_02_23_015128_create_admins_table","batch":"2"},
+{"id":"8","migration":"2018_02_23_020211_create_product_images_table","batch":"2"},
+{"id":"10","migration":"2014_10_12_000000_create_users_table","batch":"3"},
+{"id":"11","migration":"2018_07_21_115850_create_divisions_table","batch":"4"},
+{"id":"12","migration":"2018_07_21_115908_create_districts_table","batch":"4"},
+{"id":"13","migration":"2018_08_28_033110_create_orders_table","batch":"5"},
+{"id":"14","migration":"2018_08_28_034133_create_carts_table","batch":"5"}
+]
+}
+,{"type":"table","name":"orders","database":"laravel_ecommerce_tutorial","data":
+[
+
+]
+}
+,{"type":"table","name":"password_resets","database":"laravel_ecommerce_tutorial","data":
+[
+
+]
+}
+,{"type":"table","name":"products","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"1","category_id":"3","brand_id":"2","title":"Iphone 8","description":"Iphone","slug":"Iphone-8","quantity":"1","price":"10000","status":"1","offer_price":null,"admin_id":"1","created_at":"2018-02-22 00:00:00","updated_at":"2018-02-22 00:00:00"},
+{"id":"2","category_id":"2","brand_id":"2","title":"Samsung Galaxy 2","description":"Samsung GalaxySamsung GalaxySamsung Galaxy\r\n\r\nSamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung Galaxy\r\n\r\nSamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung GalaxySamsung Galaxy","slug":"Samsung-Galaxy-2","quantity":"0","price":"10000","status":"1","offer_price":null,"admin_id":"1","created_at":"2018-02-22 00:00:00","updated_at":"2018-02-22 00:00:00"},
+{"id":"3","category_id":"2","brand_id":"2","title":"Sony Camera","description":"Sony Camera","slug":"sony-camera","quantity":"20","price":"20000","status":"0","offer_price":null,"admin_id":"1","created_at":"2018-07-21 05:24:30","updated_at":"2018-07-21 06:28:47"}
+]
+}
+,{"type":"table","name":"product_images","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"1","product_id":"1","image":"1.png","created_at":null,"updated_at":null},
+{"id":"2","product_id":"2","image":"2.png","created_at":null,"updated_at":null},
+{"id":"3","product_id":"1","image":"3.png","created_at":null,"updated_at":null},
+{"id":"4","product_id":"2","image":"1519483410.png","created_at":"2018-02-24 14:43:31","updated_at":"2018-02-24 14:43:31"},
+{"id":"5","product_id":"2","image":"1519483895.png","created_at":"2018-02-24 14:51:35","updated_at":"2018-02-24 14:51:35"},
+{"id":"6","product_id":"6","image":"1519483895.png","created_at":"2018-02-24 14:51:35","updated_at":"2018-02-24 14:51:35"},
+{"id":"7","product_id":"3","image":"1532150670.png","created_at":"2018-07-21 05:24:30","updated_at":"2018-07-21 05:24:30"}
+]
+}
+,{"type":"table","name":"users","database":"laravel_ecommerce_tutorial","data":
+[
+{"id":"8","first_name":"Maniruzzaman","last_name":"Akash","username":"maniruzzamanakash2","phone_no":"1951233084","email":"manirujjamanakash@gmail.com","password":"$2y$10$hFKyIY6GoQ.anijWOknn7eKyXKn9xQC7jvWthDPs3.\/hXG3tXQ8Gi","street_address":"Patuakhali, Bangladesh","division_id":"4","district_id":"2","status":"1","ip_address":"::1","avatar":null,"shipping_address":"New","remember_token":"eyoc5OOpW8HaqR7DIHkbSefIbRLC8PgI4q63Bnox4D0191fdoKrF7HKXdxnD","created_at":"2018-07-22 06:35:46","updated_at":"2018-08-28 01:45:20"}
+]
+}
+]
